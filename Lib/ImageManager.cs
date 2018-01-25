@@ -7,9 +7,9 @@ namespace Lib
 {
     public class ImageManager
     {
-        public static Image<Rgba32> GetSampleImage()
+        public static Image<Rgba32> GetSampleImage(string imageName = "forest")
         {
-            return Image.Load(Path.Combine(Assembly.GetExecutingAssembly().Location, @"../../../../../Lib/Assets/small-image.jpg"));
+            return Image.Load(Path.Combine(Assembly.GetExecutingAssembly().Location, @"../../../../../Lib/Assets/" + imageName + ".jpg"));
         }
 
         public static void SaveImage(Image<Rgba32> image, Assembly assembly, string filename = "result")
