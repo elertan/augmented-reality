@@ -3,19 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2024
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib", "Lib\Lib.csproj", "{4A386F09-3167-4837-B26C-DF1F28CC68B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lib", "Lib\Lib.csproj", "{4A386F09-3167-4837-B26C-DF1F28CC68B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment1.YuvToBlackAndWhite", "Assignment1.YuvToBlackAndWhite\Assignment1.YuvToBlackAndWhite.csproj", "{42848C66-742C-4A38-9047-A880AE455DCA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assignment1.YuvToBlackAndWhite", "Assignment1.YuvToBlackAndWhite\Assignment1.YuvToBlackAndWhite.csproj", "{42848C66-742C-4A38-9047-A880AE455DCA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment2.NearestNeighbourInterpolation", "Assignment2.NearestNeighbourInterpolation\Assignment2.NearestNeighbourInterpolation.csproj", "{626DDF78-FA11-4023-8060-D5C8746D5F93}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assignment2.NearestNeighbourInterpolation", "Assignment2.NearestNeighbourInterpolation\Assignment2.NearestNeighbourInterpolation.csproj", "{626DDF78-FA11-4023-8060-D5C8746D5F93}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment2.BillinearInterpolation", "Assignment2.BillinearInterpolation\Assignment2.BillinearInterpolation.csproj", "{00DA7360-D844-481B-80D1-748F06BF8D80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assignment2.BillinearInterpolation", "Assignment2.BillinearInterpolation\Assignment2.BillinearInterpolation.csproj", "{00DA7360-D844-481B-80D1-748F06BF8D80}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assignment1.RgbToBlackAndWhite", "Assignment1.RgbToBlackAndWhite\Assignment1.RgbToBlackAndWhite.csproj", "{F319D4D2-770B-4469-9E1B-529BC97CA6A9}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assignment1.RgbYuvConversion", "Assignment1.RgbYuvConversion\Assignment1.RgbYuvConversion.csproj", "{0D902041-C645-434F-8930-9E75FABD923D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment3.KMeansImageSegmentation", "Assignment3.KMeansImageSegmentation\Assignment3.KMeansImageSegmentation.csproj", "{605E0FC6-F2AC-4D6B-AF01-46DEA6D6C0C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assignment3.KMeansImageSegmentation", "Assignment3.KMeansImageSegmentation\Assignment3.KMeansImageSegmentation.csproj", "{605E0FC6-F2AC-4D6B-AF01-46DEA6D6C0C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment4.UnwarpingAlgorithmOmnidirectionalToPerspective", "Assignment4.UnwarpingAlgorithmOmnidirectionalToPerspective\Assignment4.UnwarpingAlgorithmOmnidirectionalToPerspective.csproj", "{ED73FEBD-6A7A-4DE2-99BF-C9DA465217DF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{605E0FC6-F2AC-4D6B-AF01-46DEA6D6C0C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{605E0FC6-F2AC-4D6B-AF01-46DEA6D6C0C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{605E0FC6-F2AC-4D6B-AF01-46DEA6D6C0C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED73FEBD-6A7A-4DE2-99BF-C9DA465217DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED73FEBD-6A7A-4DE2-99BF-C9DA465217DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED73FEBD-6A7A-4DE2-99BF-C9DA465217DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED73FEBD-6A7A-4DE2-99BF-C9DA465217DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
