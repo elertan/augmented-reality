@@ -8,10 +8,10 @@ namespace Assignment3.KMeansImageSegmentation
     {
         static void Main(string[] args)
         {
-            var image = ImageManager.GetSampleImage("tiger");
+            var image = ImageManager.GetSampleImage("image-colors2");
 
             var imageSegmenter = new ImageSegmenter();
-            var segmentedImage = imageSegmenter.SegmentImage(image, k: 12);
+            var segmentedImage = imageSegmenter.SegmentImage(image, k: 24);
 
             ImageManager.SaveImage(segmentedImage, Assembly.GetExecutingAssembly());
         }

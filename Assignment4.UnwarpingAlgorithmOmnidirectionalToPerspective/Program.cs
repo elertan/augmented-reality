@@ -8,10 +8,10 @@ namespace Assignment4.UnwarpingAlgorithmOmnidirectionalToPerspective
     {
         static void Main(string[] args)
         {
-            var image = ImageManager.GetSampleImage("omni");
+            var image = ImageManager.GetSampleImage("omni2");
 
             var imageUnwarper = new ImageUnwarper();
-            var unwarpedImage = imageUnwarper.UnwarpImage(image, 50, 238);
+            var unwarpedImage = imageUnwarper.UnwarpImage(image, 25, 160);
 
             ImageManager.SaveImage(unwarpedImage, Assembly.GetExecutingAssembly());
         }
