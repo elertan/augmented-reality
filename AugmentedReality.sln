@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment4.UnwarpingAlgori
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProofExam1.Exercise1", "ProofExam1.Exercise1\ProofExam1.Exercise1.csproj", "{6F578186-47EA-492C-9DB6-072972D0B262}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProofExam1.Exercise2", "ProofExam1.Exercise2\ProofExam1.Exercise2.csproj", "{505B7130-E852-4651-A25A-924FCCA1DCB0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{6F578186-47EA-492C-9DB6-072972D0B262}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F578186-47EA-492C-9DB6-072972D0B262}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F578186-47EA-492C-9DB6-072972D0B262}.Release|Any CPU.Build.0 = Release|Any CPU
+		{505B7130-E852-4651-A25A-924FCCA1DCB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{505B7130-E852-4651-A25A-924FCCA1DCB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{505B7130-E852-4651-A25A-924FCCA1DCB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{505B7130-E852-4651-A25A-924FCCA1DCB0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
