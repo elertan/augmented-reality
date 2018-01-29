@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Lib\Lib.csproj">
+      <Project>{4A386F09-3167-4837-B26C-DF1F28CC68B1}</Project>
+      <Name>Lib</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>
